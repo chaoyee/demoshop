@@ -31,6 +31,7 @@ gem 'spree_auth_devise', '~> 3.3.0.rc1'
 gem 'spree_gateway', '~> 3.3.0.rc1'
 
 gem 'spree_i18n', github: 'spree-contrib/spree_i18n'
+gem 'spree_multi_currency', github: 'spree-contrib/spree_multi_currency'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'

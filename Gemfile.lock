@@ -9,6 +9,13 @@ GIT
       routing-filter
       spree_core (>= 3.1.0, < 4.0)
 
+GIT
+  remote: https://github.com/spree-contrib/spree_multi_currency.git
+  revision: 7b95113860fc91e0d3adae778c9a419899108dcf
+  specs:
+    spree_multi_currency (3.2.0.alpha)
+      spree_backend (>= 3.1.0, < 4.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -388,6 +395,7 @@ DEPENDENCIES
   spree_auth_devise (~> 3.3.0.rc1)
   spree_gateway (~> 3.3.0.rc1)
   spree_i18n!
+  spree_multi_currency!
   spring
   spring-watcher-listen (~> 2.0.0)
   sqlite3
