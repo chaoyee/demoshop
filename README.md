@@ -22,3 +22,9 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+### spree_i18n
+
+- 20170706143833_remove_translations_from_spree_tables.spree_i18n
+FROM: class RemoveTranslationsFromSpreeTables < ActiveRecord::Migration
+TO: class RemoveTranslationsFromSpreeTables < ActiveRecord::Migration[4.2]
