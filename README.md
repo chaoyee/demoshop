@@ -1,29 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a test installation for Spree Commerce.
 
-Things you may want to cover:
+* Ruby version: 2.3.4p301
+* Rails version: 5.1.2
+* Spree version: 3.3.0.rc1
 
-* Ruby version
+### Spree Extensions installed:
 
-* System dependencies
+* spree_i18n
+* spree_multi_currency
+* spree_slider
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-### spree_i18n
+### Note: spree_i18n
 
 - 20170706143833_remove_translations_from_spree_tables.spree_i18n
 FROM: class RemoveTranslationsFromSpreeTables < ActiveRecord::Migration
