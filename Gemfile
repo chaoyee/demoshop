@@ -26,16 +26,17 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 
 gem 'spree', '~> 3.3.0.rc1'
-gem 'spree_auth_devise',    github: 'spree/spree_auth_devise'
-gem 'spree_gateway',        github: 'spree/spree_gateway'
+gem 'spree_auth_devise',     github: 'spree/spree_auth_devise'
+gem 'spree_gateway',         github: 'spree/spree_gateway'
 
-gem 'spree_i18n',           github: 'spree-contrib/spree_i18n', branch: 'master'
-# gem 'spree_globalize',      github: 'spree-contrib/spree_globalize', branch: 'master'
+gem 'spree_i18n',            github: 'spree-contrib/spree_i18n', branch: 'master'
+# gem 'spree_globalize',       github: 'chaoyee/spree_globalize', branch: 'master'
 
-gem 'spree_multi_currency', github: 'spree-contrib/spree_multi_currency'
-gem 'spree_slider',         github: 'spree-contrib/spree_slider'
-gem 'spree_static_content', github: 'spree-contrib/spree_static_content'
-gem 'spree_reviews',        github: 'spree-contrib/spree_reviews'
+gem 'spree_multi_currency',  github: 'spree-contrib/spree_multi_currency'
+gem 'spree_slider',          github: 'spree-contrib/spree_slider'
+gem 'spree_static_content',  github: 'spree-contrib/spree_static_content'
+gem 'spree_reviews',         github: 'spree-contrib/spree_reviews'
+gem 'spree_social_products', github: 'chaoyee/spree_social_products', branch: 'master'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
