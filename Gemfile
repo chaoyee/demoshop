@@ -38,7 +38,7 @@ gem 'spree_static_content',  github: 'spree-contrib/spree_static_content'
 gem 'spree_reviews',         github: 'spree-contrib/spree_reviews'
 gem 'spree_social_products', github: 'chaoyee/spree_social_products', branch: 'master'
 gem 'spree_address_book',    github: 'spree-contrib/spree_address_book', branch: 'master'
-
+gem 'spree_editor',          github: 'spree-contrib/spree_editor'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
