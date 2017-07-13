@@ -7,6 +7,15 @@ GIT
       spree_core (~> 3.3.0.rc1)
 
 GIT
+  remote: https://github.com/spree-contrib/spree_address_book.git
+  revision: ce57c1a4a0c0ab53322881b22456ebc9e8fc0760
+  branch: master
+  specs:
+    spree_address_book (3.2.0.alpha)
+      spree_auth_devise (>= 3.1.0, < 4.0)
+      spree_core (>= 3.1.0, < 4.0)
+
+GIT
   remote: https://github.com/spree-contrib/spree_i18n.git
   revision: 014df50090e5734a3a98682fd17c736d0f4b8c8e
   branch: master
@@ -442,6 +451,7 @@ DEPENDENCIES
   sass-rails (~> 5.0)
   selenium-webdriver
   spree (~> 3.3.0.rc1)
+  spree_address_book!
   spree_auth_devise!
   spree_gateway!
   spree_i18n!
