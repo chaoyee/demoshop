@@ -39,6 +39,9 @@ gem 'spree_reviews',         github: 'spree-contrib/spree_reviews'
 gem 'spree_social_products', github: 'chaoyee/spree_social_products', branch: 'master'
 gem 'spree_address_book',    github: 'spree-contrib/spree_address_book', branch: 'master'
 gem 'spree_editor',          github: 'spree-contrib/spree_editor'
+gem 'spree_blogging_spree',  github: 'chaoyee/spree-blogging-spree'
+# gem 'spree_blogging_spree',  path:   '../spree-blogging-spree'
+
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
@@ -56,6 +59,7 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+  gem 'pry'
 end
 
 group :development do
